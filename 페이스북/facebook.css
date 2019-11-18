@@ -1,0 +1,447 @@
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: #e9ebee;
+}
+
+.facebook-header {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    background-color: #3b5998;
+}
+
+#facebook-logo {
+    display: inline-block;
+    position: absolute;
+    font-family: inherit;
+    font-size: 40px;
+    color: white;
+    background-color: #3b5998;
+    margin-top: -24px;
+    margin-left: 250px;
+    height: 100%;
+}
+
+#facebook-login {
+    display: flex;
+    background-color: #3b5998;
+    width: 700px;
+    height: 100%;
+    margin-left: 630px;
+}
+
+#facebook-login-emailaddress {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 50px; 
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 290px;
+    height: 40px;
+    margin-left: 170px;
+    margin-right: -40px;
+    padding-left: 10px;
+}
+
+#facebook-login-password {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 50px; 
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#facebook-login-button {
+    margin-top: 25px;
+    margin-left: 50px; 
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #4267b2;
+    border-color: #29487d;
+}
+
+#facebook-login-forget {
+    float: right;
+    margin-right: 280px;
+    margin-top: -20px;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+}
+
+.facebook-section {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 85%;
+    background-color: #e9ebee;
+}
+
+#facebook-section-loginlog {
+    display: inline-block;
+    position: absolute;
+    background-color: #e9ebee;
+    width: 500px;
+    height: 90%;
+    margin-left: 250px;
+}
+
+#facebook-section-user {
+    display:inline-block;
+    position: absolute;
+    background-color: #e9ebee;
+    width: 100%;
+    height: 60%;
+}
+
+#facebook-section-logintext2 {
+    display: flex;
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+#facebook-section-userface {
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    width: 40%;
+    height: 60%;
+    margin-top: -10px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+#facebook-section-userface:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+#face {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+#facebook-section-userface-text {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    margin-top: 177px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#facebook-section-userface-text-user:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#facebook-section-userface-text-user {
+    margin-top: 10px;
+}
+
+#facebook-section-userface2 {
+    position: absolute;
+    display: inline-block;
+    background-color: gainsboro;
+    width: 40%;
+    height: 60%;
+    margin-top: -10px;
+    margin-left: 220px;
+    border-radius: 4px;
+}
+
+#facebook-section-userface2:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+#btn-plus {
+    position: absolute;
+    background-color: #4267b2;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    top: 70px;
+    left: 70px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%; 
+}
+
+#facebook-section-userface2-text {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    margin-top: 177px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+#facebook-section-userface2-text:hover {
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+#accountadd {
+    margin-top: 10px;
+}
+
+
+#facebook-section-information {
+    display: inline-block;
+    position: absolute;
+    background-color: #e9ebee;
+    width: 500px;
+    height: 100%;
+    margin-left: 800px;
+    margin-top: -3px;
+}
+
+#facebook-section-information-logintext2 {
+    display: block;
+    position: absolute;
+    color: grey;  
+    margin-top: -41px;
+}
+
+#facebook-section-information-information {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-color: #e9ebee;
+}
+
+#information-name {
+    position: absolute;
+    display: block;
+    background-color: #e9ebee;
+    width: 120%;
+    height: 15%;
+}
+
+#name {
+    border: none;
+    border-radius: 4px;
+    width: 34.2%; 
+    height: 75%;
+    border: 1px solid #e9ebee;
+}
+
+#information-email {
+    position: absolute;
+    display: block;
+    background-color: #e9ebee;
+    margin-top: 20px;
+    width: 65.5%;
+    height: 15%;
+}
+
+#email {
+    border: none;
+    border-radius: 4px;
+    width: 130%;
+    height: 75%;
+    border: 1px solid #e9ebee;
+}
+
+#information-newpassword {
+    position: absolute;
+    display: block;
+    background-color: #e9ebee;
+    margin-top: 40px;
+    width: 57%;
+    height: 15%;
+}
+
+#newpassword {
+    border: none;
+    border-radius: 4px;
+    width: 150%;
+    height: 75%;
+    border: 1px solid #e9ebee;
+}
+
+#warning {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #e9ebee;
+    margin-top: 85px;
+    color: grey;
+    font-size: 10px;
+}
+
+#birthday-help {
+    position: absolute;
+    display: inline-block;
+    width: 3.5%;
+    height: 50%;
+    background-color: grey;
+    color: white;
+    margin-top: -25px;
+    margin-left: 22px;  
+    text-align: center;
+    border-radius: 100%;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+
+#information-birthday {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 15%;
+    background-color: #e9ebee;
+    margin-top: 113px;
+}
+
+#year {
+    border: none;
+    border-radius: 4px;
+    width: 28%;
+    height: 75%;
+    border: 1px solid #e9ebee;
+}
+
+#month {
+    border: none;
+    border-radius: 4px;
+    width: 28%;
+    height: 75%;
+    border: 1px solid #e9ebee;
+}
+
+#day {
+    border: none;
+    border-radius: 4px;
+    width: 28%;
+    height: 75%;
+    border: 1px solid #e9ebee;
+}
+
+#sex {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 15%;
+    background-color: #e9ebee;
+    margin-top: 170px;
+}
+
+#warning2 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #e9ebee;
+    margin-top: -15px;
+    color: grey;
+    font-size: 10px;
+}
+
+
+#female {
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #e9ebee;
+    width: 28%;
+    margin-top: 20px;
+    text-align: center;
+    height: 60%;
+    font-weight: normal;
+   
+}
+
+#male {
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #e9ebee;
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 145px;
+    text-align: center;
+    height: 60%;
+    font-weight: normal;
+}
+
+#direct {
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #e9ebee;
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 290px;
+    text-align: center;
+    height: 60%;
+    font-weight: normal;
+}
+
+#menual {
+    position: absolute;
+    display: block;
+    margin-top: 230px;
+    font-size: 11px;
+    color: black;
+    width: 360px;
+}
+
+#register {
+    position: absolute;
+    display: block;
+    margin-top: 290px;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+
+#makepage {
+    position: absolute;
+    display: block;
+    margin-top: 350px;
+}
+
+#page {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#page:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    margin-top: 665px;
+}
